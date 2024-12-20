@@ -1,0 +1,91 @@
+1. #will create a directory named as hello using mkdir command
+  mkdir hello
+  
+  #changing the directory by using cd commnd (moving to hello dir)
+  cd hello
+  
+  #creating a directory inside hello dir
+  mkdir five
+  
+   #moving to five dir
+   cd five
+  
+   #creating a directory inside five dir
+   mkdir six
+   
+   #moving to six dir
+   cd six
+   
+   #creating a file inside six dir
+   touch c.txt
+   
+   #creating a directory inside six dir
+   mkdir seven
+  
+   #moving to seven dir
+   cd seven
+   
+   #creating a file inside seven dir
+   touch error.log
+   
+   #going to hello dir back
+    ../../..
+    
+    #creating a directory inside hello dir
+    mkdir one
+    
+    #creating files inside one dir
+    touch a.txt b.txt
+    
+    #creating a directory inside one dir
+   mkdir two
+   
+   #moving to two dir
+   cd two
+   
+   #creating a file inside two dir
+   touch d.txt
+   
+   #creating a directory inside two dir
+   mkdir three
+    
+    #moving to three dir 
+   cd three
+   
+   #creating a file inside three dir
+   touch e.txt
+   
+   #creating a directory inside three  dir
+   mkdir four
+    
+    #moving to four dir
+   cd four
+   
+   #creating a file inside four dir
+   touch access.log
+   
+   #coming back to hello
+   cd ../../../..
+   
+   
+2. #to delete all files with .log extension
+   find . -type f -name "*.log" -delete
+
+3. #to  add the content inside a.txt file using nano ,it will open text editor in that we will add the content then after saving we can come out by using ctrl+x.
+
+   nano a.txt
+   
+ 4.#to remove directory named five use rm -R 
+    rm -R five
+    
+ 5.#to rename one to uno using mv command
+   mv one uno
+   
+ 6.#to move a file from one directory to other directory(first will go to uno dir)
+ 
+ cd uno
+ 
+ mv a.txt two
+ 
+   
+   
