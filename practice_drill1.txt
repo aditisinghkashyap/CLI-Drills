@@ -68,7 +68,7 @@
    cd ../../../..
    
    
-2. #to delete all files with .log extension
+2. #to delete all files with .log extension 
    find . -type f -name "*.log" -delete
 
 3. #to  add the content inside a.txt file using nano ,it will open text editor in that we will add the content then after saving we can come out by using ctrl+x.
